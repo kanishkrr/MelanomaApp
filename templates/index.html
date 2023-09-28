@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melanoma</title>
+  </head>
+  <body>
+    <div class="center-button">
+      <h1>Melanoma Detector</h1>
+      <form action="#" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" onchange="displayFileName(this)">
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+
+    <script>
+      function displayFileName(input) {
+        const selectedFileName = document.getElementById('selectedFileName');
+        selectedFileName.textContent = input.files[0].name;
+      }
+    </script>
+  </body>
+</html>
