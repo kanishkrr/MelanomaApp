@@ -1,6 +1,6 @@
 # MelanomaApp
 
-used a CNN to differentiate benign vs. malignant moles of Melanoma, one of the most serious types of skin cancer
+used a CNN to distinguish benign vs. malignant moles of Melanoma, one of the most serious types of skin cancer
 
 was able to achieve 91.6% accuracy on the third attempt (80% first, 86.8% second)
 
