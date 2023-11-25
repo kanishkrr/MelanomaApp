@@ -18,7 +18,5 @@ things to improve in the future:
 - potentially use Adam optimizer instead of Stochastic Gradient Descent to more efficiently train the model
 - use a less complex Neural Network (i don't think it was necessary for such a large net - 9216 --> 4000 --> 2000 --> 2)
 
-i learned a lot with this project
-
 dataset used: https://www.kaggle.com/datasets/hasnainjaved/melanoma-skin-cancer-dataset-of-10000-images
 
